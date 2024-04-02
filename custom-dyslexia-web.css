@@ -1,0 +1,87 @@
+
+/* 
+TEMP and TEST
+ */
+
+/* Charcoal on Light Blue: Soft for the eyes and provides enough contrast without causing strain. */
+body, footer, header, h1, h2, h3, h4, h5, h6, p, a, li, td, th, label, input, textarea, select, button {
+   background-color: rgb(173, 216, 230) !important; /* Light blue background */
+   color: rgb(51, 61, 71) !important; /* Charcoal text */
+   font-family: "OpenDyslexic", Comic sans-serif !important; /* Dyslexia-friendly font */
+   font-size: 18px;
+   line-height: 1.6;
+}
+
+a {
+   color: rgb(51, 61, 71) !important; /* Charcoal text */
+   text-decoration: none;
+}
+
+a:visited {
+   color: blue; /* Blue for links */
+   text-decoration: underline;
+}
+
+a:hover, a:focus {
+   background-color: lemonchiffon !important; /* Lemon Chiffon for hover/focus background */
+   color: darkblue; /* Dark blue text */
+}
+
+/* Enhancing visibility of interactive elements */
+button, input[type="button"], input[type="reset"] {
+   background-color: rgb(173, 216, 230) !important; /* Light blue background */
+   border: 2px solid rgb(51, 61, 71) !important; /* Dark border for visibility */
+   color: rgb(51, 61, 71) !important;
+   font-family: Comic sans-serif !important; /* Dyslexia-friendly font */
+}
+
+/* submit buttons should be distinctive */
+button, input[type="submit"] {
+   background-color: lemonchiffon !important; /* Lemon Chiffon background */
+   border: 2px solid rgb(51, 61, 71) !important; /* Dark border for visibility */
+   color: rgb(51, 61, 71) !important; /* Charcoal text */
+   font-family: Comic sans-serif !important; /* Dyslexia-friendly font */
+   font-weight: bold !important; 
+}
+
+/* Slightly larger font on hover for emphasis */
+button:hover, input[type="submit"]:hover {
+   font-size: 19px;
+}
+
+button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+   background-color: lemonchiffon !important; /* Lemon Chiffon background on hover */
+   border-color: blue !important; /* Dark blue border on hover */
+}
+
+input, textarea {
+   background-color: lemonchiffon !important; /* Lemon Chiffon background */
+   color: rgb(51, 61, 71) !important; /* Charcoal text */
+   border: 2px solid rgb(51, 61, 71) !important; /* Dark border for visibility */
+   font-family: Comic sans-serif !important; /* Dyslexia-friendly font */
+   transition: font-size 0.3s ease, font-weight 0.3s ease; /* should be optional for users who want minimal movement */
+}
+
+/* Ensuring text over images is readable */
+.text-over-image {
+   background: lemonchiffon !important; /* Light solid background for legibility */
+   color: rgb(51, 61, 71) !important; /* Dark text for contrast */
+}
+
+body > ul, nav {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(51, 61, 71);
+}
+
+icon {
+    color: rgb(51, 61, 71);
+}
+
+[class*="nav"] {
+    background-color: rgb(173, 216, 230) !important; /* Light blue background */
+    color: rgb(51, 61, 71) !important; /* Charcoal text */
+    font-family: "OpenDyslexic", Comic sans-serif !important; /* Dyslexia-friendly font */
+    font-size: 18px;
+    line-height: 1.6;
+}
